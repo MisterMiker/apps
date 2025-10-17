@@ -56,12 +56,12 @@ with col2:
  url = "https://detectorgestosmiguel.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
+ st.subheader("Análisis de texto")
  image = Image.open('OIG3.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("El siguiente aplicativo busca poder responder preguntas sobre un texto subido por el usuario") 
+ url = "https://unyf7bynmkmepwxavgyodj.streamlit.app/"
+ st.write(f"[Enlace]({url})")
 
 
 with col3: 
