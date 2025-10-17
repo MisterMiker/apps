@@ -28,7 +28,7 @@ with col1:
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconimiento de emociones")
- st_lottie(dancing_bear, height=250)
+ image = Image.open('1.png')
  st.image(image, width=200)
  st.write("La presente página busca encontrar la emoción en frases y palabras") 
  url = "https://pae4apprbctyuk29tykpwim.streamlit.app/"
