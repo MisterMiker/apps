@@ -25,21 +25,21 @@ with col1:
  st.image(image, width=190)
  st.write("Aplicación para presentar auditivamente un texto") 
  url = "https://mwcvogxsfresrryrvr8akq.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write(f"[Enlace]({url})")
 
  st.subheader("Reconimiento de emociones")
  image = Image.open('sticker.png')
  st.image(image, width=200)
  st.write("La presente página busca encontrar la emoción en frases y palabras") 
  url = "https://pae4apprbctyuk29tykpwim.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"[Enlace]({url})")
 
  st.subheader("Reconocimiento de objetos en cámara")
  image = Image.open('B.jpeg')
  st.image(image, width=200)
  st.write("En esta aplicación presenciarás el poder de la inteligencia artificial para reconocer objetos en una imagen") 
  url = "https://yolov5-xmswsvv5xzm3m8kfmdyj7i.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write(f"Enlace]({url})")
 
 with col2: 
  st.subheader("Traductor de voz")
@@ -47,14 +47,14 @@ with col2:
  st.image(image, width=200)
  st.write("La siguiente aplicación traducirá en texto una entrada del microfono") 
  url = "https://9wxumiwaxls2hderp86v7r.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write(f"[Enlace]({url})")
 
- st.subheader("Análisis de Datos")
+ st.subheader("Reconocimiento de gestos con manos")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("Esta aplicación busca reconocer uno de tres gestos con las manos") 
+ url = "https://detectorgestosmiguel.streamlit.app/"
+ st.write(f"[Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('OIG3.jpg')
