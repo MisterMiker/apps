@@ -50,7 +50,7 @@ with col2:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Reconocimiento de gestos con manos")
- image = Image.open('data_analisis.png')
+ image = Image.open('Paloma.png')
  st.image(image, width=190)
  st.write("Esta aplicación busca reconocer uno de tres gestos con las manos") 
  url = "https://detectorgestosmiguel.streamlit.app/"
