@@ -70,6 +70,12 @@ with col2:
  url = "https://unyf7bynmkmepwxavgyodj.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
+ st.subheader("Tablero")
+ image = Image.open('a.jpeg')
+ st.image(image, width=200)
+ st.write("Este es un aplicativo de un tablero") 
+ url = "https://tablerito-xd5bgynb7kv6grohtbkq5r.streamlit.app/"
+ st.write(f"[Enlace]({url})")
 
 with col3: 
  st.subheader("Guía de cultivo de Glorps con PDF")
