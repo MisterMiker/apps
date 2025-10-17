@@ -79,11 +79,11 @@ with col3:
  url = "https://visionapp-urkrnqmwncrsutrupqwajo.streamlit.app/"
  st.write(f"Vision: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
+ st.subheader("Prueba 1")
  image = Image.open('OIG6.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("Esta fue una aplicación inicial para conocer el panorama de Github y Streamlit") 
+ url = "https://miprimerappsoyunvictorioso.streamlit.app/"
+ st.write(f"[Enlace]({url})")
 
 
