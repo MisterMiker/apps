@@ -1,5 +1,7 @@
 import streamlit as st
 from PIL import Image
+from streamlit_lottie import st_lottie
+import json
 st.title("Aplicaciones de Inteligencia Artificial.")
 
 with st.sidebar:
@@ -26,7 +28,7 @@ with col1:
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconimiento de emociones")
- image = Image.open('txt_to_audio.png')
+ st_lottie(dancing_bear, height=250, key="positive")
  st.image(image, width=200)
  st.write("La presente página busca encontrar la emoción en frases y palabras") 
  url = "https://pae4apprbctyuk29tykpwim.streamlit.app/"
