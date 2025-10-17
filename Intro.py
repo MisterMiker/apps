@@ -57,7 +57,7 @@ with col2:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Análisis de texto")
- image = Image.open('a.jepg')
+ image = Image.open('a.jpeg')
  st.image(image, width=200)
  st.write("El siguiente aplicativo busca poder responder preguntas sobre un texto subido por el usuario") 
  url = "https://unyf7bynmkmepwxavgyodj.streamlit.app/"
