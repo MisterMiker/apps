@@ -41,7 +41,7 @@ with col1:
 
 with col2: 
  st.subheader("Traductor de voz")
- image = Image.open('OIG8.jpg')
+ image = Image.open('309206.png')
  st.image(image, width=200)
  st.write("La siguiente aplicación traducirá en texto una entrada del microfono") 
  url = "https://9wxumiwaxls2hderp86v7r.streamlit.app/"
