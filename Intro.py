@@ -50,7 +50,7 @@ else:
     """, unsafe_allow_html=True)
 
 # ---- TÍTULO PRINCIPAL ----
-st.title("🤖 Aplicaciones de Inteligencia Artificial")
+st.title("Portafolio Miguel Ramírez López")
 
 # ---- SIDEBAR ----
 with st.sidebar:
