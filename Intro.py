@@ -48,6 +48,13 @@ with col1:
  url = "https://eb4up7c6bdvnixezsf3uny.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
+ st.subheader("Reconocimiento de dígitos")
+ image = Image.open('images (1).jpeg')
+ st.image(image, width=200)
+ st.write("Escribe un número y el aplicativo lo leerá") 
+ url = "https://guw5hbkuplisckimsesffz.streamlit.app/"
+ st.write(f"[Enlace]({url})")
+
 with col2: 
  st.subheader("Traductor de voz")
  image = Image.open('309206.png')
