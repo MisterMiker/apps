@@ -49,7 +49,7 @@ with col1:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Reconocimiento de dígitos")
- image = Image.open('images (1).jpeg')
+ image = Image.open('9.png')
  st.image(image, width=200)
  st.write("Escribe un número y el aplicativo lo leerá") 
  url = "https://guw5hbkuplisckimsesffz.streamlit.app/"
