@@ -55,6 +55,13 @@ with col1:
  url = "https://guw5hbkuplisckimsesffz.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
+ st.subheader("Controlador de microcomputadora")
+ image = Image.open('images (1).jpeg')
+ st.image(image, width=200)
+ st.write("Este aplicativo controlará una microcomputadora física o de wowki") 
+ url = "https://sendcmqtt-vuzekwrhsv4svewg4hsr44.streamlit.app/"
+ st.write(f"[Enlace]({url})")
+
 with col2: 
  st.subheader("Traductor de voz")
  image = Image.open('309206.png')
