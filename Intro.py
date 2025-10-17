@@ -140,3 +140,10 @@ with col3:
  st.write("Este aplicativo leerá la información enviada desde una microcomputadora o una aplicación de wowki") 
  url = "https://recepmqtt-8fvjh4tsjnxaxafjy3qok3.streamlit.app/"
  st.write(f"[Enlace]({url})")
+
+ st.subheader("Analisis de texto en ESPAÑOL")
+ image = Image.open('AA.jpg')
+ st.image(image, width=200)
+ st.write("El siguiente aplicativo busca poder responder preguntas sobre un texto subido por el usuario") 
+ url = "https://tdfesp-jjkfuksktwe2chktberohb.streamlit.app/"
+ st.write(f"[Enlace]({url})")
