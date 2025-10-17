@@ -71,7 +71,7 @@ with col2:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Tablero")
- image = Image.open('a.jpeg')
+ image = Image.open('Ay.jpeg')
  st.image(image, width=200)
  st.write("Este es un aplicativo de un tablero") 
  url = "https://tablerito-xd5bgynb7kv6grohtbkq5r.streamlit.app/"
