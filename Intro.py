@@ -57,7 +57,7 @@ with st.sidebar:
     st.subheader("Pequeño apunte")
     parrafo = (
         "Ante el desarrollo de diversas actividades en clase, decidí subir absolutamente todas "
-        "las que hemos hecho."
+        "las que hemos hecho. "
         "Muchas gracias :D."
     )
     st.write(parrafo)
