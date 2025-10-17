@@ -100,7 +100,7 @@ with col3:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Lector de texto en imágenes")
- image = Image.open('Silly.jpg')
+ image = Image.open('AA.jpg')
  st.image(image, width=200)
  st.write("Sube una imágen y el aplicativo la leerá") 
  url = "https://ocr-audio-mqj9rbmpiblmmbdyb8xpc2.streamlit.app/"
