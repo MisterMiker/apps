@@ -64,7 +64,7 @@ with col2:
 
 with col3: 
  st.subheader("Guía de cultivo de Glorps con PDF")
- image = Image.open('Chat_pdf.png')
+ image = Image.open('images.jpeg')
  st.image(image, width=190)
  st.write("Ahora, con base a un PDF veremos cómo cultivar glorps :D") 
  url = "https://chatpdf-cgep6dpyw9zi5gzx5kvnmx.streamlit.app/"
