@@ -92,7 +92,7 @@ with col2:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Computadora funcional con voz")
- image = Image.open('Ay.png')
+ image = Image.open('Micro.png')
  st.image(image, width=200)
  st.write("Este aplicativo permite el uso de una microcomputadora o aplicación de Wowki con voz") 
  url = "https://ctrlvoice-5jd4q2bypdhylkwzqhqv7r.streamlit.app/"
