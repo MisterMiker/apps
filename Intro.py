@@ -119,3 +119,10 @@ with col3:
  st.write("Sube una imágen y el aplicativo la leerá") 
  url = "https://ocr-audio-mqj9rbmpiblmmbdyb8xpc2.streamlit.app/"
  st.write(f"[Enlace]({url})")
+
+ st.subheader("Receptor de MQQT")
+ image = Image.open('AA.jpg')
+ st.image(image, width=200)
+ st.write("Este aplicativo leerá la información enviada desde una microcomputadora o una aplicación de wowki") 
+ url = "https://recepmqtt-8fvjh4tsjnxaxafjy3qok3.streamlit.app/"
+ st.write(f"[Enlace]({url})")
