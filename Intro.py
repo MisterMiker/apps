@@ -42,7 +42,7 @@ with col1:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Reconocimiento de texto en cámara")
- image = Image.open('B.jpeg')
+ image = Image.open('Images (1).jpeg')
  st.image(image, width=200)
  st.write("Pon un texto en tu webcam y este aplicativo lo leerá") 
  url = "https://eb4up7c6bdvnixezsf3uny.streamlit.app/"
