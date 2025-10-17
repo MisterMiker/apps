@@ -80,7 +80,7 @@ with col3:
  st.write(f"Vision: [Enlace]({url})")
  
  st.subheader("Prueba 1")
- image = Image.open('OIG6.jpg')
+ image = Image.open('Silly.jpg')
  st.image(image, width=200)
  st.write("Esta fue una aplicación inicial para conocer el panorama de Github y Streamlit") 
  url = "https://miprimerappsoyunvictorioso.streamlit.app/"
