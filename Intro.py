@@ -32,11 +32,11 @@ with col1:
  url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
+ st.subheader("Reconocimiento de objetos en cámara")
+ image = Image.open('B.jpeg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
+ st.write("En esta aplicación presenciarás el poder de la inteligencia artificial para reconocer objetos en una imagen") 
+ url = "https://yolov5-xmswsvv5xzm3m8kfmdyj7i.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
