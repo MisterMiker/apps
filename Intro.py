@@ -39,7 +39,7 @@ with col1:
  st.image(image, width=200)
  st.write("En esta aplicación presenciarás el poder de la inteligencia artificial para reconocer objetos en una imagen") 
  url = "https://yolov5-xmswsvv5xzm3m8kfmdyj7i.streamlit.app/"
- st.write(f"Enlace]({url})")
+ st.write(f"[Enlace]({url})")
 
 with col2: 
  st.subheader("Traductor de voz")
