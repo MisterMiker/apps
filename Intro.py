@@ -5,7 +5,7 @@ import json
 
 # ---- CONFIGURACIÓN DE LA PÁGINA ----
 st.set_page_config(
-    page_title="Aplicaciones de Inteligencia Artificial",
+    page_title="Portafolio Miguel Ramírez López",
     page_icon="🤖",
     layout="wide"
 )
@@ -63,9 +63,6 @@ with st.sidebar:
     st.write(parrafo)
 
 # ---- ENLACE PRINCIPAL ----
-url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("🌐 En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"🔗 Enlace para páginas y ejercicios: [Haz clic aquí]({url_ia})")
 
 # ---- PESTAÑAS DE ORGANIZACIÓN ----
 tabs = st.tabs(["🎙️ Voz y Lenguaje", "🧠 Análisis e Imagen", "🤝 Control y Hardware"])
