@@ -83,14 +83,14 @@ with col3:
  st.image(image, width=190)
  st.write("Ahora, con base a un PDF veremos cómo cultivar glorps :D") 
  url = "https://chatpdf-cgep6dpyw9zi5gzx5kvnmx.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write(f"[Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
  image = Image.open('A.png')
  st.image(image, width=200)
  st.write("En la presente aplicación se podrá presenciar la capacidad de la computadora para analizar imágenes") 
  url = "https://visionapp-urkrnqmwncrsutrupqwajo.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write(f"[Enlace]({url})")
  
  st.subheader("Prueba 1")
  image = Image.open('Silly.jpg')
@@ -99,4 +99,9 @@ with col3:
  url = "https://miprimerappsoyunvictorioso.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
-
+ st.subheader("Lector de texto en imágenes")
+ image = Image.open('Silly.jpg')
+ st.image(image, width=200)
+ st.write("Sube una imágen y el aplicativo la leerá") 
+ url = "https://ocr-audio-mqj9rbmpiblmmbdyb8xpc2.streamlit.app/"
+ st.write(f"[Enlace]({url})")
