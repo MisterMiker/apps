@@ -41,6 +41,13 @@ with col1:
  url = "https://yolov5-xmswsvv5xzm3m8kfmdyj7i.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
+ st.subheader("Reconocimiento de objetos en cámara")
+ image = Image.open('B.jpeg')
+ st.image(image, width=200)
+ st.write("En esta aplicación presenciarás el poder de la inteligencia artificial para reconocer objetos en una imagen") 
+ url = "https://yolov5-xmswsvv5xzm3m8kfmdyj7i.streamlit.app/"
+ st.write(f"[Enlace]({url})")
+
 with col2: 
  st.subheader("Traductor de voz")
  image = Image.open('309206.png')
