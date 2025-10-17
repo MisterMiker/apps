@@ -98,6 +98,13 @@ with col2:
  url = "https://ctrlvoice-5jd4q2bypdhylkwzqhqv7r.streamlit.app/"
  st.write(f"[Enlace]({url})")
 
+ st.subheader("Tablero inteligente")
+ image = Image.open('Ay.png')
+ st.image(image, width=200)
+ st.write("Este aplicativo reconoce lo que el usuario dibuje en un pequeño tablero") 
+ url = "https://histinf-6tgf3nnhwuwas2wqmufaqi.streamlit.app/"
+ st.write(f"[Enlace]({url})")
+
 with col3: 
  st.subheader("Guía de cultivo de Glorps con PDF")
  image = Image.open('images.jpeg')
