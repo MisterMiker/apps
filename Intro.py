@@ -99,7 +99,7 @@ with col2:
  st.write(f"[Enlace]({url})")
 
  st.subheader("Tablero inteligente")
- image = Image.open('Ay.png')
+ image = Image.open('Tablerito.png')
  st.image(image, width=200)
  st.write("Este aplicativo reconoce lo que el usuario dibuje en un pequeño tablero") 
  url = "https://histinf-6tgf3nnhwuwas2wqmufaqi.streamlit.app/"
