@@ -214,6 +214,6 @@ with tabs[2]:
 # ---- PIE DE PÁGINA ----
 st.markdown("""
 ---
-📘 *Aplicación creada por [Tu Nombre]*  
+📘 *Aplicación creada por Miguel Ramírez López*  
 🚀 Desarrollada con [Streamlit](https://streamlit.io/)
 """, unsafe_allow_html=True)
